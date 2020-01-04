@@ -395,9 +395,9 @@ public class SettingsStore {
     }
 
     public boolean getLayersEnabled() {
-        if (DeviceType.isOculusBuild()) {
-            return true;
-        }
+//        if (DeviceType.isOculusBuild()) {
+//            return true;
+//        }
         return false;
     }
 

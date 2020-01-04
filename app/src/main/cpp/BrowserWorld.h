@@ -85,6 +85,8 @@ protected:
   void DrawLoadingAnimation(device::Eye aEye);
   void DrawSplashAnimation(device::Eye aEye);
   void CreateSkyBox(const std::string& aBasePath, const std::string& aExtension);
+  void CreateFloor();
+
 private:
   State& m;
   BrowserWorld() = delete;
