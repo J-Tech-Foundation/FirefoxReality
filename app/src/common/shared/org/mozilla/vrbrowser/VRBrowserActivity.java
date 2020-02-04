@@ -1382,13 +1382,6 @@ public class VRBrowserActivity extends PlatformActivity implements WidgetManager
     }
 
     @Override
-    public void setTrayVisible(boolean visible) {
-        if (mTray != null && !mTray.isReleased()) {
-            mTray.setTrayVisible(visible);
-        }
-    }
-
-    @Override
     public void setControllersVisible(final boolean aVisible) {
         queueRunnable(() -> setControllersVisibleNative(aVisible));
     }
